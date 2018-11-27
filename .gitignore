@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+.DS_Store
+.idea/compiler.xml
+.idea/hydra.xml
+.idea/inspectionProfiles/
+.idea/libraries/
+.idea/misc.xml
+.idea/modules.xml
+.idea/modules/
+.idea/sbt.xml
+.idea/scala_compiler.xml
+.idea/thriftCompiler.xml
+.idea/workspace.xml
+target/
+demo-api/target
+demo-service/target
+project/target
+project/project/target
+demo-service/logs

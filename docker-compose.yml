@@ -1,0 +1,17 @@
+version: '2'
+services:
+  helloDemo:
+    container_name: memberDemo
+    image: dapengsoa/biz/member_service
+    environment:
+      - soa_container_port=9010
+      - soa_container_ip=192.168.1.94
+      - soa_monitor_enable=false
+      - soa_transactional_enable=false
+      - soa_core_pool_size=100
+      - LANG=zh_CN.UTF-8
+      - TZ=CST-8
+      - soa_zookeeper_host=192.168.1.94:2181
+    ports:
+      - "8010:8080"
+      - "9010:9010"
